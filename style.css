@@ -1,0 +1,60 @@
+body {
+    background-color: #2d2d30;
+}
+
+/* Styl kontenera logo */
+.logo {
+    width: 160vh;
+    height: 70vh;
+    position: relative;
+    margin: 15vh auto;
+}
+  
+/* Styl pojedynczego pierścienia */
+.ring {
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    border: solid blue 4vh;
+    position: absolute;
+    background: transparent;
+    -webkit-box-shadow: 8px 8px 24px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 8px 8px 24px 0px rgb(0, 0, 0);
+    box-shadow: 8px 8px 24px 0px rgb(0, 0, 0);
+}
+  
+/* Styl pierścienia niebieskiego */
+.blue {
+    border-color: #0085c771;
+    transform: rotateX(-45deg) scaleY(1.4142);
+}
+  
+/* Styl pierścienia żółtego */
+.yellow {
+    border-color: #f4c300;
+    left: 28vh;
+    top: 18vh;
+    transform: rotateX(0deg);
+}
+  
+/* Styl pierścienia czarnego */
+.black {
+    border-color: black;
+    left: 56vh;
+    transform: rotateX(45deg) scaleY(1.4142);
+}
+  
+/* Styl pierścienia zielonego */
+.green {
+    border-color:  #009f3d;
+    top: 18vh;
+    left: 84vh;
+    transform: translateZ(20vh) rotateX(70deg) scaleY(2.9238);
+}
+  
+/* Styl pierścienia czerwonego */
+.red {
+    border-color: #df0024;
+    left: 112vh;
+    transform: translateZ(-32vh) rotateX(80deg) scaleY(5.7588);
+}
